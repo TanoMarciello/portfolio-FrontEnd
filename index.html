@@ -24,11 +24,391 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
 
+    <!--  css principal-->
+    <link rel="stylesheet" href="css\style-main.css">
+
+    <!--  css bootstrap -->
     <link rel="stylesheet" href="dist\bootstrap-5.0.1\css\bootstrap.min.css">
+
+    <!--  iconos -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 
 </head>
 <body>
-    <h1 class="text-danger">ANDA?</h1>
+    
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex flex-column justify-content-center">
+    <nav id="navbar" class="navbar nav-menu">
+      <ul>
+        <li><a href="#inicio" class="nav-link active"><i class="bi bi-house"></i></i> <span>Inicio</span></a></li>
+        <li><a href="#info" class="nav-link"><i class="bi bi-person"></i></i> <span>Información</span></a></li>
+        <li><a href="#resume" class="nav-link"><i class="bi bi-boxes"></i></i> <span>Experiencia</span></a></li>
+        <li><a href="#skills" class="nav-link"><i class="bi bi-puzzle"></i> <span>Habilidades</span></a></li>
+        <li><a href="#portfolio" class="nav-link"><i class="bi bi-folder"></i> <span>Portfolio</span></a></li>
+        <li><a href="#contact" class="nav-link"><i class="bi bi-chat-left-text"></i> <span>Contacto</span></a></li>
+      </ul>
+    </nav><!-- .nav-menu -->
+  </header><!-- End Header -->
+
+  <!-- ======= Inicio Section ======= -->
+  <section id="inicio" class="d-flex flex-column justify-content-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-8">
+          <h1>AGUSTÍN FUNES</h1>
+          <p>Desarrollador web</p>
+          <div class="social-links">
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></i></a>
+            <a href="#"><i class="bi bi-discord"></i></i></a>
+            <a href="#"><i class="bi bi-github"></i></a>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="area">
+            <ul class="circles">
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div >
+        </div>
+      </div>
+    </div> 
+  </section><!-- End inicio -->
+<main id="main">
+  <!-- ======= info Section ======= -->
+  <section id="info" class="info">
+    <div class="container">
+      <div class="section-title">
+        <h2>Información Personal</h2>
+      </div>
+      <div class="row">
+        <div class="col-lg-4">
+          <img src="./img/foto.jpeg" class="img-fluid">
+        </div>
+        <div class="col-lg-8 pt-4 pt-lg-0 content">
+          <h3>Técnico electrónico</h3>
+          <p>
+            Actualmente estudiando Ingeniería Electrónica
+          </p>
+          <div class="row">
+            <div class="col-lg-6">
+              <ul>
+                <li><i class="bi bi-chevron-right"></i> <strong>Edad:</strong> <span>22 años</span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>Nacionalidad:</strong> <span>Argentino</span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>Estado civil:</strong> <span>Soltero</span></li>
+              </ul>
+            </div>
+            <div class="col-lg-6">
+              <ul>
+                <li><i class="bi bi-chevron-right"></i> <strong>Título:</strong> <span>Técnico electrónico</span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>Ciudad:</strong> <span>Arroyo Seco</span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>E-mail:</strong> <span>agufus91@gmail.com</span></li>
+              </ul>
+            </div>
+          </div>
+          <p>
+            Breve descripción mía
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </section><!-- End About Section -->
+
+   <!-- ======= Resume Section ======= -->
+   <section id="resume" class="resume">
+    <div class="container" data-aos="fade-up">
+
+      <div class="section-title">
+        <h2>Experiencia</h2>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-6">
+          <h3 class="resume-title">Formación académica</h3>
+          <div class="resume-item">
+            <h4>Universidad Nacional de Rosario</h4>
+            <h5>2019 - Presente</h5>
+            <p>Estudiante avanzado de ingeniería electrónica, con un 70% de la carrera completada y 8.00 de promedio.</p>
+            <ul>
+              <li>Rosario, Santa Fe</li>
+              <li><a href="https://web.fceia.unr.edu.ar/es/" target="_blank">Sitio Web</a></li>
+            </ul>
+          </div>
+
+
+          <div class="resume-item">
+            <h4>Instituto San Pablo</h4>
+            <h5>2012 - 2018</h5>
+            <p>Egresado como técnico electrónico.</p>
+            <ul>
+              <li>Villa Constitución, Santa Fe</li>
+              <li><a href="https://escuela2073sanpablo.blogspot.com/" target="_blank">Sitio Web</a></li>
+            </ul>
+          </div>
+          <h3 class="resume-title">Cursos</h3>
+          <div class="resume-item">
+
+            <h4>Instituto ICR</h4>
+            <h5>2018</h5>
+            <p><b>Diseño Gráfico </b></p>
+            <p>Curso presencial de un año. Enfocado en Illustrator, Photoshop, Corel Draw e InDesign.</p>
+            <ul>
+              <li>Rosario, Santa Fe</li>
+              <li><a href="https://www.institutoicr.com.ar/" target="_blank">Sitio Web</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <h3 class="resume-title">Experiencia laboral</h3>
+          <div class="resume-item">
+            <h4>MIXER Alarmas</h4>
+            <h5>2018 - Presente</h5>
+            <p>Diseñador, instalador y programador de sistemas de cámaras y alarmas. Programador de redes para acceso remoto a los sistemas.</p>
+            <ul>
+              <li>Arroyo Seco, Santa Fe</li>
+              <li><a href="https://www.mixeralarmas.ml/" target="_blank">Sitio Web</a></li>
+            </ul>
+          </div>
+          <div class="resume-item">
+            <h4>PARTICULAR</h4>
+            <h5>2018 - Presente</h5>
+            <p><b>Electricista</b></p>
+            <p>Instalaciónes eléctricas domiciliarias. Soluciones lógicas y tableros eléctricos.</p>
+            <ul>
+              <li>Arroyo Seco, Santa Fe</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section><!-- End Resume Section -->
+
+  <!-- ======= Skills Section ======= -->
+  <section id="skills" class="skills section-bg">
+    <div class="container" data-aos="fade-up">
+
+      <div class="section-title">
+        <h2>Habilidades</h2>
+      </div>
+
+      <div class="row skills-content">
+
+        <div class="col-lg-6">
+
+          <div class="progress">
+            <span class="skill">HTML <i class="val">100%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+          <div class="progress">
+            <span class="skill">CSS <i class="val">90%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+          <div class="progress">
+            <span class="skill">JavaScript <i class="val">75%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-lg-6">
+
+          <div class="progress">
+            <span class="skill">PHP <i class="val">80%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+          <div class="progress">
+            <span class="skill">Illustrator <i class="val">90%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+          <div class="progress">
+            <span class="skill">Photoshop <i class="val">55%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section><!-- End Skills Section -->
+
+  <!-- ======= Portfolio Section ======= -->
+  <section id="portfolio" class="portfolio section-bg">
+    <div class="container" data-aos="fade-up">
+
+      <div class="section-title">
+        <h2>Portfolio</h2>
+        <p>Exposición de trabajos de desarrollo web</p>
+      </div>
+
+
+      <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Card 1</h4>
+              <p>card</p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Card 2</h4>
+              <p>card</p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Card 3</h4>
+              <p>card</p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Card 4</h4>
+              <p>Card</p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Card 5</h4>
+              <p>card</p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Card 6</h4>
+              <p>card</p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section><!-- End Portfolio Section -->
+
+   <!-- ======= Contact Section ======= -->
+   <section id="contact" class="contact">
+    <div class="container" data-aos="fade-up">
+
+      <div class="section-title">
+        <h2>Contacto</h2>
+      </div>
+
+      <div class="container">
+
+          <div class="info">
+            <div class="address">
+              <i class="bi bi-geo-alt"></i>
+              <h4>Ubicación:</h4>
+              <p>Arroyo Seco, Santa Fe, Argentina</p>
+            </div>
+
+            <div class="email">
+              <i class="bi bi-envelope"></i>
+              <h4>Email:</h4>
+              <p>agufus91@gmail.com</p>
+            </div>
+
+            <div class="phone">
+              <i class="bi bi-phone"></i>
+              <h4>Teléfono</h4>
+              <p>3402 52 57 71</p>
+            </div>
+          </div>
+    </div>
+  </section><!-- End Contact Section -->
+
+</main><!-- End #main -->
+
+<!-- ======= Footer ======= -->
+<footer id="footer">
+  <div class="container">
+    <div class="copyright">
+      <img src=".\img\arg-programa.png" style="width: 140px;">
+    </div>
+    <div class="credits">
+
+      Diseñado por <b>Agustín Funes</b>
+    </div>
+  </div>
+</footer><!-- End Footer -->
+
+  
+</main><!-- End #main -->
 
     <script src="dist\bootstrap-5.0.1\js\bootstrap.min.js"></script>
 </body>
